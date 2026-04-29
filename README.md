@@ -1,16 +1,70 @@
-# weather_app1
+# 🌤️ Weather App - Flutter Cubit
 
-A new Flutter project.
+[English](#english-version) | [العربية](#النسخة-العربية)
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## English Version <a name="english-version"></a>
 
-A few resources to get you started if this is your first Flutter project:
+A professional weather application built with **Flutter**, following Clean Architecture principles and using **Cubit** for state management. The app features a dynamic coloring system that updates the UI theme based on the current weather status.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ✨ Key Features
+* **🔍 Search:** Search for any city worldwide to get real-time weather data.
+* **🎨 Dynamic Theme:** The entire app theme (AppBar, Progress Indicator, etc.) changes according to the weather (Sunny, Cloudy, Rainy, etc.).
+* **🛡️ Error Handling:** * Detects "No Internet Connection".
+    * Handles "Connection Timeout".
+    * Alerts for "City Not Found".
+* **🔄 Retry Mechanism:** A built-in retry button for technical connection errors.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🛠️ Tech Stack
+* **Flutter & Bloc/Cubit**
+* **Dio** (HTTP Client)
+* **OpenWeatherMap API**
+* **Material 3 Design**
+
+---
+
+## النسخة العربية <a name="النسخة-العربية"></a>
+
+تطبيق طقس احترافي مبني باستخدام **Flutter**، يتبع معايير المعمارية النظيفة ويعتمد على **Cubit** لإدارة الحالة. يتميز التطبيق بنظام ألوان ديناميكي يغير واجهة المستخدم تلقائياً بناءً على حالة الطقس.
+
+### ✨ المميزات الرئيسية
+* **🔍 بحث شامل:** ابحث عن أي مدينة للحصول على بيانات الطقس في الوقت الفعلي.
+* **🎨 ثيم ديناميكي:** ألوان التطبيق تتغير (AppBar، دائرة التحميل) لتناسب جو المدينة (مشمس، غائم، ممطر).
+* **🛡️ معالجة الأخطاء:**
+    * كشف انقطاع الإنترنت.
+    * التعامل مع تأخر استجابة السيرفر.
+    * التنبيه عند عدم العثور على المدينة.
+* **🔄 زر إعادة المحاولة:** حل سريع للمشاكل التقنية دون الحاجة لإعادة كتابة اسم المدينة.
+
+### 🛠️ التقنيات المستخدمة
+* **فلاتر و بلوك (Cubit)**
+* **Dio** (للتواصل مع الـ API)
+* **OpenWeatherMap API**
+* **Material 3 Design**
+
+---
+
+## 📸 Screenshots | لقطات من التطبيق
+
+| Dynamic Theme (Clouds) | Error Handling (No Internet) | Home View (Searching Now)
+|---|---|
+ | ![Clouds](https://github.com/Mo7-Mortada/weather_app_cubit/blob/main/screenshots/Dynamic%20Theme%20(Clouds)%20Screenshot.jpg?raw=true)
+ | ![Error](https://github.com/Mo7-Mortada/weather_app_cubit/blob/main/screenshots/Error%20Handling%20(No%20Internet)%20Screenshot.jpg?raw=true)
+ | ![Home](https://github.com/Mo7-Mortada/weather_app_cubit/blob/main/screenshots/Home%20View%20Screenshot.jpg?raw=true)
+
+## 🚀 How to Run | كيف تشغل المشروع
+
+1. **Clone the repo | تحميل المشروع:**
+```Bash
+git clone [https://github.com/Mo7-Mortada/weather_app_cubit.git](https://github.com/Mo7-Mortada/weather_app_cubit.git)
+```
+3. **Install dependencies | تثبيت المكتبات:**
+```Dart
+flutter pub get
+```
+3. Run the app | تشغيل التطبيق:
+```Dart
+flutter run
+```
+Made with ❤️ by [Mo7-Mortada]
