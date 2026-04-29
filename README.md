@@ -47,12 +47,17 @@ A professional weather application built with **Flutter**, following Clean Archi
 
 ## 📸 Screenshots | لقطات من التطبيق
 
-| Dynamic Theme (Clouds) | Error Handling (No Internet) | Home View (Searching Now)
-|---|---|
- | ![Clouds](https://github.com/Mo7-Mortada/weather_app_cubit/blob/main/screenshots/Dynamic%20Theme%20(Clouds)%20Screenshot.jpg?raw=true)
- | ![Error](https://github.com/Mo7-Mortada/weather_app_cubit/blob/main/screenshots/Error%20Handling%20(No%20Internet)%20Screenshot.jpg?raw=true)
- | ![Home](https://github.com/Mo7-Mortada/weather_app_cubit/blob/main/screenshots/Home%20View%20Screenshot.jpg?raw=true)
+| Dynamic Theme (Clouds)
 
+![Clouds](https://github.com/Mo7-Mortada/weather_app_cubit/blob/main/screenshots/Dynamic%20Theme%20(Clouds)%20Screenshot.jpg?raw=true)
+
+| Error Handling (No Internet)
+
+![Error](https://github.com/Mo7-Mortada/weather_app_cubit/blob/main/screenshots/Error%20Handling%20(No%20Internet)%20Screenshot.jpg?raw=true)
+
+| Home View (Searching Now)
+
+![Home](https://github.com/Mo7-Mortada/weather_app_cubit/blob/main/screenshots/Home%20View%20Screenshot.jpg?raw=true)
 ## 🚀 How to Run | كيف تشغل المشروع
 
 1. **Clone the repo | تحميل المشروع:**
